@@ -61,10 +61,11 @@ a {
   padding: 10px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 30px;
   color: #f1f1f1;
   background-color: transparent;
+  border: 1px solid #f1f1f1 ;
 }
 
 .subSection {
@@ -117,21 +118,52 @@ a {
 
 .cardButton {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
   color: #f1f1f1;
   background-color: transparent;
   color: black;
-  border: 1px black;
+  border: 1px solid black;
 }
 
+.cardButton:hover {
+  background-color: black;
+  color: white;
+}
 
+.sectFour {
+  display: flex;
+  background-image: url(../images/brown-book-page-1112048.jpg);
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px;
 
+}
 
+.customColumn {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
 
+.one {
+  background-color: rgba(256, 256, 256, 0.8);
+  flex: 1;
+  margin: 80px 100px 80px 100px;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+}
 
+.two {
+  background-color: rgba(256, 256, 256, .8);
+  flex: 1;
+  margin: 80px 100px 80px 100px;
+  text-align: center;
+  padding: 30px 30px 30px 30px;
+}
 
 
 
