@@ -71,7 +71,7 @@
 	     	</div>
   	</div>
 
-  	<a class="navbar-item customFont" href="aboutus.html">
+  	<a class="navbar-item customFont" href="about.html">
       	About Us
       </a>
 
@@ -187,7 +187,7 @@
   <div class="footerDiv">
     <p class="customFooter"> &copy; 2020 www.levelswithgod.com <br>
       Discipling Christians for God's Kingdom <br>
-      info@levelswithgod.com
+      info@levelswithgod.com <br>
       <a href="https://www.google.com/maps/place/929+Alpine+Commerce+Park+NW+STE+100,+Grand+Rapids,+MI+49544/@43.0335104,-85.6975173,17z/data=!3m1!4b1!4m5!3m4!1s0x8819a942d7ad51a1:0xd1cf371bb37365fd!8m2!3d43.0335065!4d-85.6953286">929  Alpine Commerce Park Suite 100, Grand Rapids, MI 49544 </a>
       <br>
       <a href="https://www.google.com/maps/place/147+E+Grand+River+Ave,+Williamston,+MI+48895/@42.6892754,-84.2845347,17z/data=!3m1!4b1!4m5!3m4!1s0x8822df9b1ba1b5d1:0xa8033163494237ae!8m2!3d42.6892715!4d-84.282346">147 E. Grand River Ave. Williamston MI 48895</a>
@@ -200,6 +200,28 @@
       </p>
   </div>
   </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+    if ($navbarBurgers.length > 0) {
+      $navbarBurgers.forEach( el => {
+          el.addEventListener('click', () => {
+
+      
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+
+});
+
+</script>
   
 </body>
 </html>
