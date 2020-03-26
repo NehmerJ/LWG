@@ -68,6 +68,11 @@ a {
   border: 1px solid #f1f1f1 ;
 }
 
+.topButton:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
 .subSection {
   display: flex;
   justify-content: center;
@@ -165,6 +170,49 @@ a {
   padding: 30px 30px 30px 30px;
 }
 
+.one:hover, .two:hover {
+  background-color: rgb(256, 256, 256);
+}
+
+.containerGrid {
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+align-items: stretch;
+}
+
+.tile {
+  padding: 4px;
+}
+
+.lastSect {
+  background-image: url(../images/brown-book-page-1112048.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lastText {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+} 
+
+.lastButton {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
 
 
 
@@ -192,9 +240,25 @@ a {
 
 
 
+.footerDiv {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 12px;
 
+}
 
-.topButton:hover {
-  background-color: #f1f1f1;
-  color: black;
+p a {
+  color: white;
+  font-size: 12px;
+}
+
+p a:hover {
+  color: white;
 }
