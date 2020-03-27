@@ -201,7 +201,6 @@ align-items: stretch;
 .lastText {
   font-family: 'Oswald', sans-serif;
   color: white;
-  text-align: center;
   font-size: 40px;
 } 
 
@@ -214,7 +213,10 @@ align-items: stretch;
   font-size: 30px;
 }
 
-
+.lastButton:hover {
+  background-color: white;
+  color: black;
+}
 
 
 
