@@ -69,9 +69,17 @@ a {
 	font-size: 30px;
 }
 
+.one {
+	box-shadow: 2px 2px 5px 3px lightgrey;
+	padding: 20px 50px 20px 50px;
+	margin-right: 20px;
+
+}
+
 .sectTitle {
 	text-align: center;
 	color: black;
+	padding:20px 20px 20px 20px;
 }
 
 .subTitle {
@@ -83,8 +91,23 @@ a {
 	color: #000000;
 }
 
+.article {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 50px;
+}
+
+.flexArticle {
+}
+
 .articleTile {
 	background-color: #f1f1f1;
+	margin-left: 0px;
+	flex: .50;
+
 }
 
 .articleTitle {
@@ -92,6 +115,8 @@ a {
 	color: #000000;
 	font-size: 40px;
 	text-align: center;
+	flex: 1;
+
 }
 
 .articleText {
@@ -137,7 +162,7 @@ a {
 .five {
 	order: 2;
 	padding: 20px 200px 20px 180px;
-	margin-left: 15px;
+	margin-left: 52px;
 	margin-right: 20px;
 	flex: wrap;
 }
@@ -187,7 +212,7 @@ p a:hover {
 }
 
 @media only screen and (max-width: 1000px) {
-	.four, .subArticle {
+	.four, .subArticle, .articleTile {
 		flex-basis: 100%;
 	}
 
